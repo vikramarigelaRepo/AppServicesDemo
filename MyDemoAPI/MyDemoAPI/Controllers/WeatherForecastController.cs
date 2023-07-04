@@ -17,6 +17,7 @@ namespace MyDemoAPI.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly string APISecret = "test@123";
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
